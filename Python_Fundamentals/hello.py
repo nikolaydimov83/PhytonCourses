@@ -8,3 +8,6 @@ for char in string:
         break
 else:
     print('Char not found')
+
+list = [1,2,3]
+print
