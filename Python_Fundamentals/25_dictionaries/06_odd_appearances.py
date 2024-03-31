@@ -7,4 +7,4 @@ for word in word_list:
     else:
         word_dict[word]=1
 word_dict_final={ key:value for key, value in list(word_dict.items()) if value%2==1}
-print(''.join([ key for key in word_dict_final.keys()]))
+print(' '.join([ key for key in word_dict_final.keys()]))
